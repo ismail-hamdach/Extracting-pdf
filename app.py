@@ -17,6 +17,10 @@ import pandas as pd
 # Extract text
 text = extract_text("DevOps.pdf", maxpages=5)
 # print(text)
+
+with open('text.txt', 'w') as file :
+    file.write(text)
+
 QstPattern = re.compile(r"[0-9]+\.\s([A-Za-z0-9]+( [A-Za-z0-9]+)+)\?")
 QstMatches = QstPattern.findall(text)
 

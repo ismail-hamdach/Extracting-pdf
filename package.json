@@ -1,0 +1,19 @@
+{
+  "name": "extract-data-pdf",
+  "version": "1.0.0",
+  "description": "This project used to extract data from a pdf that I want to transform it into flash cards.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismail-hamdach/Extracting-pdf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismail-hamdach/Extracting-pdf/issues"
+  },
+  "homepage": "https://github.com/ismail-hamdach/Extracting-pdf#readme"
+}
