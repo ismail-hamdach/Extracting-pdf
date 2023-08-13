@@ -11,6 +11,6 @@ is a package used to extract data from pdf files.
 ## To run 
 > install python then run
 
->> pip install
+    pip install
 
->> pip app.py
+    pip app.py
